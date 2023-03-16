@@ -1,5 +1,4 @@
 ---
-import Analytics from "../components/Analytics.astro";
 import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
 import Scripts from "../components/Scripts.astro";
@@ -9,7 +8,6 @@ const { title } = Astro.props;
 
 <html lang="en" class="scroll-smooth">
   <head>
-    <Analytics />
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.webp" />
     <meta name="viewport" content="width=device-width" />
@@ -22,6 +20,25 @@ const { title } = Astro.props;
       <slot>Default Text</slot>
     </main>
     <Footer />
+
+    <div data-dial-init class="group fixed right-6 bottom-6">
+      <a
+        href="#"
+        class="flex h-8 w-8 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-500 shadow-sm hover:bg-gray-50 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white dark:focus:ring-gray-400"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          ><path
+            fill="currentColor"
+            d="M7.4 15.4L6 14l6-6l6 6l-1.4 1.4l-4.6-4.6Z"></path></svg
+        >
+        <span class="sr-only">Share</span>
+      </a>
+    </div>
+
     <Scripts />
   </body>
 </html>
