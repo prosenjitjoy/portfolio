@@ -1,38 +1,30 @@
 ---
-import { SEO } from "astro-seo";
 ---
 
-<SEO
-  title="Personal Website of Prosenjit Majumder Joy"
-  description="Portfolio website of Prosenjit Majumder Joy. The site contains about me section, skills section, projects section, certificates section and contact section."
-  openGraph={{
-    basic: {
-      title: "Prosenjit Majumder Joy",
-      type: "Personal Website Portfolio",
-      image: "https://prosenjitjoy.ml/opengraph.png",
-    },
-  }}
-  twitter={{
-    creator: "@prosen_joy",
-  }}
-  extend={{
-    // extending the default link tags
-    link: [{ rel: "icon", href: "/favicon.webp" }],
-    // extending the default meta tags
-    meta: [
-      {
-        name: "twitter:image",
-        content: "https://prosenjitjoy.ml/opengraph.png",
-      },
-      {
-        name: "twitter:title",
-        content: "Personal Website of Prosenjit Majumder Joy",
-      },
-      {
-        name: "twitter:description",
-        content:
-          "Portfolio website of Prosenjit Majumder Joy. The site contains about me section, skills section, projects section, certificates section and contact section.",
-      },
-    ],
-  }}
+<!-- HTML Meta Tags -->
+<title>Prosenjit Joy</title>
+<meta
+  name="description"
+  content="Personal website of Prosenjit Majumder Joy. The site contains about me, skills, projects, certificates and contact section."
 />
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://prosenjitjoy.ml/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Prosenjit Joy" />
+<meta
+  property="og:description"
+  content="Personal website of Prosenjit Majumder Joy. The site contains about me, skills, projects, certificates and contact section."
+/>
+<meta property="og:image" content="https://prosenjitjoy.ml/opengraph.png" />
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain" content="prosenjitjoy.ml" />
+<meta property="twitter:url" content="https://prosenjitjoy.ml/" />
+<meta name="twitter:title" content="Prosenjit Joy" />
+<meta
+  name="twitter:description"
+  content="Personal website of Prosenjit Majumder Joy. The site contains about me, skills, projects, certificates and contact section."
+/>
+<meta name="twitter:image" content="https://prosenjitjoy.ml/opengraph.png" />
