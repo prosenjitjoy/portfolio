@@ -14,12 +14,11 @@
             Hi There!
           </h1>
           <p
-            class="mb-2 font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-4 lg:text-xl"
+            class="mb-2 font-normal text-gray-500 dark:text-gray-400 md:text-lg lg:mb-4 lg:text-xl"
           >
             <span
-              class="bg-gradient-to-r from-sky-400 to-emerald-600 bg-clip-text text-transparent"
-              >こんにちわ。</span
-            >
+              class="auto-type bg-gradient-to-r from-sky-400 to-emerald-600 bg-clip-text text-transparent"
+            ></span>
           </p>
           <p
             class="mb-6 max-w-lg font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl"
@@ -145,3 +144,23 @@
     </div>
   </div>
 </section>
+
+<script>
+  import Typed from "typed.js";
+
+  const typed = new Typed(".auto-type", {
+    strings: [
+      "hello",
+      "শুভেচ্ছা",
+      "こんにちわ",
+      "hallå",
+      "你好",
+      "hallo",
+      "terveisiä",
+    ],
+    typeSpeed: 200,
+    backSpeed: 100,
+    backDelay: 1200,
+    loop: true,
+  });
+</script>
