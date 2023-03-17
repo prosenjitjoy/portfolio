@@ -1,0 +1,38 @@
+---
+import { SEO } from "astro-seo";
+---
+
+<SEO
+  title="Personal Website of Prosenjit Majumder Joy"
+  description="Portfolio website of Prosenjit Majumder Joy. The site contains about me section, skills section, projects section, certificates section and contact section."
+  openGraph={{
+    basic: {
+      title: "Prosenjit Majumder Joy",
+      type: "Personal Website Portfolio",
+      image: "https://prosenjitjoy.ml/opengraph.png",
+    },
+  }}
+  twitter={{
+    creator: "@prosen_joy",
+  }}
+  extend={{
+    // extending the default link tags
+    link: [{ rel: "icon", href: "/favicon.webp" }],
+    // extending the default meta tags
+    meta: [
+      {
+        name: "twitter:image",
+        content: "https://prosenjitjoy.ml/opengraph.png",
+      },
+      {
+        name: "twitter:title",
+        content: "Personal Website of Prosenjit Majumder Joy",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Portfolio website of Prosenjit Majumder Joy. The site contains about me section, skills section, projects section, certificates section and contact section.",
+      },
+    ],
+  }}
+/>
