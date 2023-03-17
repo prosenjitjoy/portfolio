@@ -1,0 +1,629 @@
+---
+---
+
+<section id="about" class="bg-white dark:bg-gray-900">
+  <div
+    class="container mx-auto flex flex-col items-center justify-between pb-16"
+  >
+    <div class="mx-auto max-w-screen-xl py-8 px-4 lg:py-16 lg:px-6">
+      <div class="mx-auto max-w-screen-sm text-center">
+        <h2
+          class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white lg:text-4xl"
+        >
+          <span
+            class="bg-gradient-to-r from-sky-400 to-emerald-600 bg-clip-text text-transparent"
+            >About</span
+          > Me
+        </h2>
+      </div>
+    </div>
+    <div class="flex flex-col gap-8 lg:flex-row">
+      <div class="w-full lg:w-1/3">
+        <img
+          src="photo.jpg"
+          alt="mockup"
+          class="h-auto max-w-full rounded-lg"
+        />
+      </div>
+      <div class="w-full lg:w-4/6">
+        <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+          <ul
+            class="-mb-px flex flex-wrap text-center text-sm font-medium"
+            id="myTab"
+            data-tabs-toggle="#myTabContent"
+            role="tablist"
+          >
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block rounded-t-lg border-b-2 p-4"
+                id="stack-tab"
+                data-tabs-target="#stack"
+                type="button"
+                role="tab"
+                aria-controls="stack"
+                aria-selected="false">Stack</button
+              >
+            </li>
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block rounded-t-lg border-b-2 p-4"
+                id="interested-tab"
+                data-tabs-target="#interested"
+                type="button"
+                role="tab"
+                aria-controls="interested"
+                aria-selected="false">Interested</button
+              >
+            </li>
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+                id="experience-tab"
+                data-tabs-target="#experience"
+                type="button"
+                role="tab"
+                aria-controls="experience"
+                aria-selected="false">Experience</button
+              >
+            </li>
+            <li class="mr-2" role="presentation">
+              <button
+                class="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+                id="education-tab"
+                data-tabs-target="#education"
+                type="button"
+                role="tab"
+                aria-controls="education"
+                aria-selected="false">Educations</button
+              >
+            </li>
+            <!-- <li class="mr-2" role="presentation">
+              <button
+                class="inline-block rounded-t-lg border-b-2 border-transparent p-4 hover:border-gray-300 hover:text-gray-600 dark:hover:text-gray-300"
+                id="hobbies-tab"
+                data-tabs-target="#hobbies"
+                type="button"
+                role="tab"
+                aria-controls="hobbies"
+                aria-selected="false">Hobbies</button
+              >
+            </li> -->
+          </ul>
+        </div>
+        <div id="myTabContent">
+          <div
+            class="hidden gap-8 rounded-lg p-4"
+            id="stack"
+            role="tabpanel"
+            aria-labelledby="stack-tab"
+          >
+            <div class="flex flex-col gap-4">
+              <!-- web -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/icons8-html-5.svg"
+                    alt="html5"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-css3.svg"
+                    alt="css3"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-tailwindcss.svg"
+                    alt="tailwindcss"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/astro-svgrepo-com.svg"
+                    alt="astro"
+                    class="m-1 w-[40px] 2xl:w-[56px]"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/svelte-svgrepo-com.svg"
+                    alt="svelte"
+                    class="m-1 w-[40px] 2xl:w-[56px]"
+                  />
+                </li>
+              </ul>
+
+              <!-- programming -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/icons8-javascript.svg"
+                    alt="javascript"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+
+                <li>
+                  <img
+                    src="/svg/icons8-golang.svg"
+                    alt="golang"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <!-- <li>
+                  <img src="/svg/icons8-c++.svg" alt="c++" class="w-12 2xl:w-16" />
+                </li> -->
+              </ul>
+
+              <!-- database -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/icons8-mariadb.svg"
+                    alt="mariadb"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+              </ul>
+
+              <!-- devops -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/bash-icon-svgrepo-com.svg"
+                    alt="bash"
+                    class="m-1 w-[40px] 2xl:w-[56px]"
+                  />
+                </li>
+
+                <li>
+                  <img
+                    src="/svg/icons8-docker.svg"
+                    alt="docker"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-git.svg"
+                    alt="git"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+              </ul>
+
+              <!-- tools -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/vite-svgrepo-com.svg"
+                    alt="vite"
+                    class="m-1 w-[40px] 2xl:w-[56px]"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-visual-studio-code-2019.svg"
+                    alt="visual-studio-code"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <!-- <li>
+                  <img
+                    src="/svg/insomnia-svgrepo-com.svg"
+                    alt="insomnia"
+                    class="m-1 w-[40px] 2xl:w-[56px]"
+                  />
+                </li> -->
+                <li>
+                  <img
+                    src="/svg/icons8-github.svg"
+                    alt="github"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+
+                <li>
+                  <img
+                    src="/svg/netlify-svgrepo-com.svg"
+                    alt="netlify"
+                    class="m-1 w-[40px] 2xl:w-[56px]"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/debian-icon.svg"
+                    alt="debian"
+                    class="m-1 w-[40px] 2xl:w-[56px]"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/kde-icon.svg"
+                    alt="kde"
+                    class="m-1 w-[40px] 2xl:w-[56px]"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="hidden gap-8 rounded-lg p-4"
+            id="interested"
+            role="tabpanel"
+            aria-labelledby="interested-tab"
+          >
+            <div class="flex flex-col gap-4">
+              <!-- web -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/icons8-vue-js.svg"
+                    alt="vue"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+              </ul>
+
+              <!-- programming -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/icons8-typescript.svg"
+                    alt="typescript"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-deno.svg"
+                    alt="deno"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img src="/svg/chi.svg" alt="chi" class="w-12 2xl:w-16" />
+                </li>
+                <li>
+                  <img
+                    src="/svg/gin.svg"
+                    alt="gin"
+                    class="mx-2 h-[48px] 2xl:h-[64px]"
+                  />
+                </li>
+              </ul>
+
+              <!-- database -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/icons8-postgresql.svg"
+                    alt="postgresql"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-mongodb.svg"
+                    alt="mongodb"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-redis.svg"
+                    alt="redis"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+              </ul>
+
+              <!-- devops -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/kubernetes-svgrepo-com.svg"
+                    alt="kubernetes"
+                    class="m-1 w-[40px] 2xl:w-[56px]"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-prometheus.svg"
+                    alt="prometheus"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-grafana.svg"
+                    alt="grafana"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-terraform.svg"
+                    alt="terraform"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+              </ul>
+
+              <!-- tools -->
+              <ul
+                class="flex items-center gap-4 rounded-md bg-gray-50 p-3 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <li>
+                  <img
+                    src="/svg/vitest.svg"
+                    alt="vitest"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+
+                <li>
+                  <img
+                    src="/svg/icons8-nginx.svg"
+                    alt="nginx"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-amazon-web-services.svg"
+                    alt="nginx"
+                    class="w-12 dark:rounded-lg dark:bg-white 2xl:w-16"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="/svg/icons8-azure.svg"
+                    alt="azure"
+                    class="w-12 2xl:w-16"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="hidden rounded-lg p-4 dark:bg-gray-900"
+            id="experience"
+            role="tabpanel"
+            aria-labelledby="experience-tab"
+          >
+            <ol class="relative border-l border-gray-200 dark:border-gray-700">
+              <li class="mb-10 ml-6">
+                <span
+                  class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-3 w-3 text-blue-800 dark:text-blue-300"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    ><path
+                      fill-rule="evenodd"
+                      d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                      clip-rule="evenodd"></path></svg
+                  >
+                </span>
+                <h3
+                  class="mb-1 flex items-center text-lg font-semibold text-gray-900 dark:text-white"
+                >
+                  Currently looking for a Job <span
+                    class="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-300"
+                    >Entry Level</span
+                  >
+                </h3>
+                <time
+                  class="mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+                  >January 2023 ~ Present</time
+                >
+                <p
+                  class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+                >
+                  I look forward to a learning experience in a professional
+                  environment where I can utilize my skills which would help me
+                  as a fresh graduate to grow while fulfilling and achieving
+                  organizational goals.
+                </p>
+                <a
+                  href="#contact"
+                  class="inline-flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
+                >
+                  🙏 Hire Me!</a
+                >
+              </li>
+            </ol>
+          </div>
+          <div
+            class="hidden rounded-lg p-4 dark:bg-gray-900"
+            id="education"
+            role="tabpanel"
+            aria-labelledby="education-tab"
+          >
+            <ol class="relative border-l border-gray-200 dark:border-gray-700">
+              <li class="mb-10 ml-6">
+                <span
+                  class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-3 w-3 text-blue-800 dark:text-blue-300"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    ><path
+                      fill="currentColor"
+                      d="M3.33 8L10 12l10-6l-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3l-2-1.2v-6l7 4.2l7-4.2v6L10 20z"
+                    ></path></svg
+                  >
+                </span>
+                <h3
+                  class="mb-1 flex items-center text-lg font-semibold text-gray-900 dark:text-white"
+                >
+                  United International University
+                </h3>
+                <time
+                  class="mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+                  >December 2021 | Dept. of CSE</time
+                >
+                <p
+                  class="text-base font-normal text-gray-500 dark:text-gray-400"
+                >
+                  Bachelor of Science in Computer Science and Engineering
+                </p>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
+                  Cum. GPA: 3.59 / 4.00
+                </p>
+              </li>
+              <li class="mb-10 ml-6">
+                <span
+                  class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-3 w-3 text-blue-800 dark:text-blue-300"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    ><path
+                      fill="currentColor"
+                      d="M3.33 8L10 12l10-6l-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3l-2-1.2v-6l7 4.2l7-4.2v6L10 20z"
+                    ></path></svg
+                  >
+                </span>
+                <h3
+                  class="mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+                >
+                  Shaheed Police Smrity College
+                </h3>
+                <time
+                  class="mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+                  >August 2016 | Science</time
+                >
+                <p
+                  class="text-base font-normal text-gray-500 dark:text-gray-400"
+                >
+                  Higher Secondary Certificate
+                </p>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
+                  GPA: 5.00 / 5.00
+                </p>
+              </li>
+              <li class="ml-6">
+                <span
+                  class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-100 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-3 w-3 text-blue-800 dark:text-blue-300"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    ><path
+                      fill="currentColor"
+                      d="M3.33 8L10 12l10-6l-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3l-2-1.2v-6l7 4.2l7-4.2v6L10 20z"
+                    ></path></svg
+                  >
+                </span>
+                <h3
+                  class="mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+                >
+                  Shaheed Police Smrity School & College
+                </h3>
+                <time
+                  class="mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+                  >May 2014 | Science</time
+                >
+                <p
+                  class="text-base font-normal text-gray-500 dark:text-gray-400"
+                >
+                  Secondary School Certificate
+                </p>
+                <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
+                  GPA: 5.00 / 5.00
+                </p>
+              </li>
+            </ol>
+          </div>
+          <!-- <div
+            class="hidden rounded-lg p-4"
+            id="hobbies"
+            role="tabpanel"
+            aria-labelledby="hobbies-tab"
+          >
+            <ul class="space-y-4">
+              <li
+                class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-semibold text-gray-900 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <img
+                  src="/svg/icons8-okular.svg"
+                  alt="okular"
+                  class="w-12 2xl:w-16"
+                />
+                <span class="ml-3 flex-1 whitespace-nowrap">Reading Books</span>
+              </li>
+              <li
+                class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-semibold text-gray-900 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <img src="/svg/listen.png" alt="listen" class="w-12 2xl:w-16" />
+                <span class="ml-3 flex-1 whitespace-nowrap"
+                  >Listening to Music</span
+                >
+              </li>
+              <li
+                class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-semibold text-gray-900 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <img
+                  src="/svg/internet.png"
+                  alt="internet"
+                  class="w-12 2xl:w-16"
+                />
+                <span class="ml-3 flex-1 whitespace-nowrap"
+                  >Browsing the Internet</span
+                >
+              </li>
+              <li
+                class="group flex items-center rounded-lg bg-gray-50 p-3 text-base font-semibold text-gray-900 hover:bg-gray-100 hover:shadow dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+              >
+                <img
+                  src="/svg/icons8-anki.svg"
+                  alt="anki"
+                  class="w-12 2xl:w-16"
+                />
+                <span class="ml-3 flex-1 whitespace-nowrap"
+                  >Learning Japanese Words</span
+                >
+              </li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
